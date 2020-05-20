@@ -1,0 +1,11 @@
+
+<div class="container">
+  <div class="input-group m-3">
+    <input class="form-control" placeholder="Enter your search..." (input)="term = $event.target.value">
+    <div class="input-group-append">
+      <span (click)=onFormSubmit($event) class="btn btn-primary" >Search</span>
+    </div>
+  </div>
+</div>
+
+
